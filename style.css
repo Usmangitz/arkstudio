@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#first{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/billboard\ \(1\).jpg);
+    background-size: cover;
+    background-color: white;
+    background-position: center;
+
+}
+.head{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    opacity: 0.6;
+    width: 100%;
+    /* z-index: 1; */
+}
+.listnames{
+    font-weight:bold;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-top: 30px;
+}
+.navitems{
+    padding: 10px;
+}
+#hfooter{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    opacity: 0.6;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.ftitle{
+    margin: 19px 19px;
+    /* margin-bottom: 10px; */
+    font-weight: bolder;
+}
+.btn{
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-right: 19px;
+    margin-bottom: 10px;
+    background-color: lightskyblue;
+    padding: 10px;
+    color: white;
+}
+#second{
+    background-color: rgb(247, 239, 239);
+    /* width: 80%;
+    justify-content: center; */
+}
+/* .arkstuff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px;
+}
+.separator{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.s1img{
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 145px;
+}
+.s1text{
+    margin-left: 110px;
+    margin-top: 6px;
+}
+.s1lorem{
+    display: flex;
+    text-align: center;
+    /* padding-left: 50px;
+    padding-right: 20px; */
+}
+.s2img{
+    height: 50px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+.s2text{
+    margin-left: 30px;
+    margin-top: 6px;
+}
+.s3img{
+    height: 50px;
+    margin-right: 120px;
+    margin-top: 10px;
+}
+.s3text{
+    margin-right: 100px;
+    margin-top: 6px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+#fourth{
+    background-color: rgb(252, 250, 250);
+    margin: auto;
+    width: 70%;
+}
+.thead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 40px;
+}
+.testomonials-grid{
+    display: grid;
+    grid-template-columns: 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 74px;
+    padding: 24px;
+}
+.client1{
+    margin-left: 50px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.txt1{
+    display: flex;
+    align-items: center;
+}
+.client3{
+    margin-left: 50px;
+    border-radius: 50px;
+}
+.client2{
+    margin-left: 50px;
+    border-radius: 50px;
+}
